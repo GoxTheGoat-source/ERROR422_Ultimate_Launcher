@@ -168,6 +168,7 @@ public class Launcher {
                 cmd.add("--username"); cmd.add(finalUsername);
                 cmd.add("--version");  cmd.add(sel);
                 cmd.add("--gameDir");  cmd.add(new File(GAME_DIR).getAbsolutePath());
+                
                 cmd.add("--assetsDir"); cmd.add(new File(GAME_DIR + "/assets").getAbsolutePath());
                 cmd.add("--assetIndex"); cmd.add(cfg.assetIdx);
                 cmd.add("--accessToken"); cmd.add("0");
@@ -212,4 +213,5 @@ public class Launcher {
             }
         }
     }
+
 }
